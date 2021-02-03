@@ -1,7 +1,7 @@
 # MADE BY: Lisette Spalding
 # FILE NAME: menu_bars.py
 # DATE CREATED: 02/03/2021
-# DATE LAST MODIFIED: 01/20/2021
+# DATE LAST MODIFIED: 02/03/2021
 
 ###### IMPORTS ######
 from tkinter import *
