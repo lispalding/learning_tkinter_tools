@@ -5,6 +5,7 @@
 
 ###### IMPORTS ######
 from tkinter import *
+import os
 ######## FIN ########
 
 ##### CONSTANTS #####
@@ -81,18 +82,28 @@ class App(Frame):
                                                                expand=True)
 
     def onExit(self):
+        """ To use: onExit()
+         This is the function closes the program. """
         self.quit()
 
     def onOpen(self):
-        pass
+        """ To use: onOpen()
+        This is the function that will determine what file the program opens."""
+        os.system("tkinter_starter_template.py") # Opening the other file in this directory
 
     def onSave(self):
+        """ To use: onSave()
+         This is the function that will save the state of this program."""
         pass
 
     def destroyFrame1(self):
+        """ To use: destroyFrame1()
+        This is the function that will obliterate frame one. """
         self.frame1.destroy()
 
     def createFrame3(self):
+        """ To use: createFrame3()
+         This is the function that will create a third (or second) frame. """
         self.frame3 = Frame(self, bg ="yellow", width=250, height=250)
         self.frame3.grid(row=2, column=0)
 
