@@ -111,6 +111,8 @@ class App(Frame):
                                                                fill=BOTH,
                                                                expand=True)
 def main():
+    """ To use: main()
+    The main entry point for this program. """
     # General Setup
     root = Tk()
     root.geometry(str.format("{}x{}", WIDTH, HEIGHT))
